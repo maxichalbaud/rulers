@@ -5,8 +5,8 @@ require_relative "lib/rulers/version"
 Gem::Specification.new do |spec|
   spec.name          = "rulers"
   spec.version       = Rulers::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Max Chalbaud"]
+  spec.email         = ["maxichalbaud@gmail.com"]
 
   spec.summary       = "Maxi's framework"
   spec.description   = "Maxi's framework based on Rebuilding Rails"
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/maxichalbaud/rulers"
-  spec.metadata["changelog_uri"] = " Put your gem's CHANGELOG.md URL here."
+  spec.metadata["changelog_uri"] = "https://github.com/maxichalbaud/rulers/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
